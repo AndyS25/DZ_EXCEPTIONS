@@ -36,7 +36,7 @@ public class ShopRepositoryTest {
     }
 
     @Test
-    public void shouldAddById() {
+    public void shouldAddByRepeatingId() {
         repo.add(item1);
         repo.add(item2);
         repo.add(item3);
@@ -49,7 +49,7 @@ public class ShopRepositoryTest {
     }
 
     @Test
-    public void shouldAddByRepeatingId() {
+    public void shouldAddById() {
         repo.add(item1);
         repo.add(item2);
         repo.add(item3);
